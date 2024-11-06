@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    font-weight: 700;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+nav a {
+    font-weight: 400;
+}
+
+main {
+    background-color: pink;
+}
+
+footer {
+    background-color: blue;
+}
+
+nav #menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav #menu ul li {
+    margin-left: 40px;
+}
+
+nav #menu ul li a {
+    text-decoration: none;
+    font-weight: 400;
+}
